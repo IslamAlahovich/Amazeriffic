@@ -1,14 +1,81 @@
 body{
 	background: #f1ede2;
 }
+
 header, main, footer{
 	min-width: 855px;
 }
+
 header.container, main.container, footer.container{
 	max-width: 855px;
 	margin: auto;
 }
 
+header{
+	overflow: auto;
+}
+
+header h1{
+	float: left;
+	width: 570px;
+	padding-left: 3px;
+}
+
+header nav{
+	float: right;
+	width: 285px;
+}
+
+main{
+	overflow: auto;
+}
+
+.fuck{
+	float: left;
+	width: 538px;
+	padding-top: 30px;
+	padding-left: 3px; 
+}
+
+main img{
+	float: right;
+	width: 317px;
+}
+
 footer{
 	background: #a5a39d;
+	overflow: auto;
+}
+
+.contact{
+	float: left;
+	width: 570px;
+	padding-left: 3px; 
+}
+
+.sitemap{
+	float: right;
+	width: 285px;
+}
+
+*{
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+	color: tomato;
+	text-decoration: none;
+}
+
+a:visited{
+	color: tomato;
+	text-decoration: underline;
+}
+
+a:hover{
+	text-decoration: underline;
 }
