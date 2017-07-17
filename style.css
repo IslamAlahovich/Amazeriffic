@@ -1,9 +1,14 @@
 body{
-	background: #f1ede2
+	background: #f1ede2;
 }
 header, main, footer{
 	min-width: 855px;
 }
+header.container, main.container, footer.container{
+	max-width: 855px;
+	margin: auto;
+}
+
 footer{
 	background: #a5a39d;
 }
