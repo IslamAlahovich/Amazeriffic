@@ -1,0 +1,9 @@
+body{
+	background: #f1ede2
+}
+header, main, footer{
+	min-width: 855px;
+}
+footer{
+	background: #a5a39d;
+}
